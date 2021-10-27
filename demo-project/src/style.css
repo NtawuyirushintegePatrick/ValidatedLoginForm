@@ -1,0 +1,48 @@
+.App {
+    font-family: serif;
+}
+h1 {
+    text-align: center;
+}
+form {
+    min-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(231, 225, 224)
+}
+label,
+input {
+    
+    width: 20%;
+    text-align: center;
+}
+label {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    
+    text-align: center;
+}
+input.error {
+    background-color: white;
+}
+.input-feedback {
+    color: rgb(0,0,0);
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+button {
+    padding: 10px 15px;
+    background-color: rgb(70,153,179);
+    color: white;
+    border: 0px solid rgb(70,153,179);
+    background-color: 250ms;
+    text-align: center;
+}
+button:hover {
+    cursor: pointer;
+    background-color: green;
+    color:rgb(70,153,179)
+}
